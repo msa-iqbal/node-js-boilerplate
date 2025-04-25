@@ -1,4 +1,4 @@
-# **🔴🟠🟡 Node.JS Installation Guide & Packages**
+## Node.JS Installation Guide & Packages
 
 Here's a step-by-step guide to installing Node.js on different operating systems:
 
@@ -12,14 +12,14 @@ Here's a step-by-step guide to installing Node.js on different operating systems
    - **Linux**: `.tar.xz`
 4. **Run the installer** and follow the on-screen instructions.
 
-### **❏❏❏  Verify Installation**
+### Verify Installation
 
 ```bash
 node -v   # Check Node.js version
 npm -v    # Check npm version
 ```
 
-## **🟪🟦🟩 Create a New Project**
+### Create a New Project
 
 Open the terminal and type this command with your project name:
 
@@ -33,7 +33,7 @@ Then, open the project folder with VS Code:
 code .
 ```
 
-## **🟪🟦🟩 Initialize NPM in the Project**
+### Initialize NPM in the Project
 
 Open a terminal in your project folder (Ctrl + ` in VS Code).
 
@@ -41,7 +41,7 @@ Open a terminal in your project folder (Ctrl + ` in VS Code).
 npm init -y
 ```
 
-### **❏❏❏  Create an `index.js` example file**
+### Create an `index.js` example file
 
 ```javascript
 // dependencies
@@ -72,7 +72,7 @@ app.handleRequest = (req, res) => {
 app.createServer();
 ```
 
-## **🟪🟦🟩 Run the Server**
+### Run the Server
 
 Modify the `package.json` file in your project and update the **scripts section**:
 
@@ -92,9 +92,7 @@ npm run build # Production Mode
 
 Open `http://localhost:3000/` in a browser to see the output.
 
----
-
-# **🔴🟠🟡 Recommended: Nodemon (VSCode Plugin)**
+## ⿻⿻⿻ Recommended: Nodemon (VSCode Plugin)
 
 Nodemon automatically restarts your **Node.js** app when file changes are detected.
 
@@ -119,13 +117,11 @@ Run with:
 npm run dev
 ```
 
----
-
-# **🔴🟠🟡 VS Code - Debug Configuration**
+## ⿻⿻⿻ VS Code - Debug Configuration
 
 To debug with **Nodemon** in VS Code:
 
-## **🟪🟦🟩 Create VS Code Debug Configuration**
+### Create VS Code Debug Configuration
 
 1. Open **VS Code**.
 2. Go to **Run and Debug** (`Ctrl + Shift + D`).
@@ -153,15 +149,15 @@ To debug with **Nodemon** in VS Code:
 
 Save the file.
 
-## **🟪🟦🟩 Test and Debug**
+### Test and Debug
 
 - Place a **console.log()** in your `app.js` file.
 - Modify and **save** the file to check if Nodemon **automatically restarts**.
 - Start debugging in VS Code using **F5**.
 
----
 
-# **🔴🟠🟡 Essential Node.JS Packages**
+
+## ⿻⿻⿻ Essential Node.JS Packages
 
 | Package Name     | Description                          | Install Command                    |
 | ---------------- | ------------------------------------ | ---------------------------------- |
@@ -183,7 +179,7 @@ Save the file.
 
 ---
 
-## **🟪🟦🟩 Update NPM (if needed):**
+###  Update NPM (if needed):
 
 Sometimes, the installed npm version isn't the latest. Update it:
 
@@ -191,9 +187,7 @@ Sometimes, the installed npm version isn't the latest. Update it:
 npm install -g npm@latest
 ```
 
----
-
-# **🔴🟠🟡 Useful NPM Commands**
+## ⿻⿻⿻ Useful NPM Commands
 
 | Command                    | Description                         |
 | -------------------------- | ----------------------------------- |
@@ -205,9 +199,8 @@ npm install -g npm@latest
 | `npm run <script>`         | Runs a script from `package.json`   |
 | `npm audit`                | Checks for security vulnerabilities |
 
----
 
-# **🔴🟠🟡 Update Node.js Version**
+## ⿻⿻⿻ Update Node.js Version
 
 ### **🛠️ Using `nvm` (Node Version Manager) – Recommended**
 
@@ -244,16 +237,11 @@ sudo apt install nodejs npm
 node -v
 ```
 
----
 
-# 📌 License
+## 📌 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-# **🤝 Contributing**
+## **🤝 Contributing**
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-# **📞 Contact**
-
-For support or inquiries, email us at [support@example.com](mailto:support@example.com).
