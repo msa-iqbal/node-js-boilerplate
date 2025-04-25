@@ -177,8 +177,6 @@ Save the file.
 | **supertest**    | HTTP testing                         | `npm install --save-dev supertest` |
 | **eslint**       | JavaScript linter                    | `npm install eslint --save-dev`    |
 
----
-
 ###  Update NPM (if needed):
 
 Sometimes, the installed npm version isn't the latest. Update it:
