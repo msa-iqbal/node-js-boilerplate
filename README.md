@@ -151,7 +151,7 @@ Save the file.
 
 ### Test and Debug
 
-- Place a **`console.log()`** in your `app.js` file.
+- Place a `console.log()` in your `app.js` file.
 - Modify and **save** the file to check if Nodemon **automatically restarts**.
 - Start debugging in VS Code using **F5**.
 
