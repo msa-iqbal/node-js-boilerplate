@@ -200,7 +200,7 @@ npm install -g npm@latest
 
 ## ⿻⿻⿻ Update Node.js Version
 
-### **🛠️ Using `nvm` (Node Version Manager) – Recommended**
+### ** Using `nvm` (Node Version Manager) – Recommended**
 
 #### **For macOS/Linux (using nvm):**
 
