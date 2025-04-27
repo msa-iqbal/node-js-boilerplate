@@ -1,4 +1,4 @@
-## Node.JS Installation Guide & Packages
+# Node.JS Installation Guide & Packages
 
 Here's a step-by-step guide to installing Node.js on different operating systems:
 
